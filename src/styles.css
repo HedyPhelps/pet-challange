@@ -1,0 +1,9 @@
+body {
+  background-color: #ffede1;
+}
+.main-page-wrapper {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/345/original/background-carrot.jpg?1670582183");
+  background-size: cover;
+  border: 1px solid #fbc6a2;
+  border-radius: 10px;
+}

@@ -1,9 +1,86 @@
 body {
   background-color: #ffede1;
 }
+
 .main-page-wrapper {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/345/original/background-carrot.jpg?1670582183");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/374/original/background-carrot.jpg?1670589923");
   background-size: cover;
   border: 1px solid #fbc6a2;
   border-radius: 10px;
+  margin-top: 25px;
+}
+.title {
+  background-color: #fead53;
+  text-align: center;
+  margin: 30px;
+  border-radius: 10px;
+}
+.leka-tiny {
+  max-width: 250px;
+  margin-left: 650px;
+  position: relative;
+}
+.titre {
+  font-size: 50px;
+  font-family: "Luckiest Guy", cursive;
+  color: #ffede1;
+  position: absolute;
+  padding: 28px;
+}
+.tiny {
+  max-width: 350px;
+  margin-left: 850px;
+}
+.main-text {
+  margin-left: 35px;
+}
+.bild-size {
+  max-width: 200px;
+}
+.main-text {
+  font-size: 30px;
+  font-family: "Rancho", cursive;
+}
+.question {
+  font-size: 30px;
+  font-family: "Rancho", cursive;
+  margin-left: 70px;
+  margin-top: 55px;
+}
+.form-name {
+  margin-left: 70px;
+  margin-top: 15px;
+}
+.story-pictures {
+  max-width: 400px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.story-container {
+  position: relative;
+}
+.text-block {
+  position: absolute;
+  background: rgba(148, 192, 226, 0.7);
+  border-radius: 5px;
+  padding: 10px;
+
+  color: white;
+}
+.page1 {
+  bottom: 280px;
+  left: 160px;
+  text-align: center;
+}
+.page2 {
+  bottom: 212px;
+  left: 135px;
+  text-align: left;
+  font-size: 15px;
+}
+.page3 {
+  bottom: 200px;
+  left: 195px;
+  text-align: left;
+  font-size: 12px;
 }

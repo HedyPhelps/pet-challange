@@ -109,3 +109,13 @@ body {
   font-size: 12px;
   color: black;
 }
+.time-data {
+  position: absolute;
+  background: none;
+  bottom: 275px;
+  left: 140px;
+  text-align: left;
+  font-size: 16px;
+  color: black;
+  font-family: "Orbitron", sans-serif;
+}

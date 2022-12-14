@@ -37,5 +37,30 @@ function search(event) {
   dino6.innerHTML = dinoInput.value;
   dino7.innerHTML = dinoInput.value;
 }
+
+let now = new Date();
+let getDate = document.querySelector("#day-data");
+let hours = now.getHours();
+let minutes = now.getMinutes();
+let clock = document.querySelector("#timeMachine");
+if (hours < 10) {
+  hours = `0${hours}`;
+}
+if (minutes < 10) {
+  minutes = `0${minutes}`;
+}
+clock.innerHTML = `${hours}:${minutes}`;
+
+let days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+let day = days[now.getDay()];
+getDate.innerHTML = day;
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", search);
